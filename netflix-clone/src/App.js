@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Home from './home/Home';
 
 const App = () => {
-  return <div>Hello World</div>
+  return <Home/>;
+
+  
 }
 
 export default App;
